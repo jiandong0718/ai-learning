@@ -1,0 +1,7 @@
+interface:
+  display_name: "生成学习计划"
+  short_description: "根据目标和时间生成可执行学习计划"
+  default_prompt: "使用 $generate-study-plan 根据我的目标、基础和时间安排，生成一份可执行的 AI 学习计划。"
+
+policy:
+  allow_implicit_invocation: true

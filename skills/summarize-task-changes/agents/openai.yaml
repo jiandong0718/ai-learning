@@ -1,0 +1,7 @@
+interface:
+  display_name: "总结任务改动"
+  short_description: "汇总本次任务的操作、改动文件、类和代码行数"
+  default_prompt: "使用 $summarize-task-changes 总结这次任务做了什么，列出改动文件、受影响类或模块、代码行数统计和验证情况。"
+
+policy:
+  allow_implicit_invocation: true

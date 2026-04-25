@@ -1,0 +1,7 @@
+interface:
+  display_name: "实现功能并补测试"
+  short_description: "在现有代码库中实现功能，并给出测试与验证结论"
+  default_prompt: "使用 $implement-feature-with-tests 在当前代码库中实现需求，补齐必要测试，并汇报验证结果和剩余风险。"
+
+policy:
+  allow_implicit_invocation: true

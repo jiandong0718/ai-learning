@@ -1,0 +1,4 @@
+interface:
+  display_name: "每日学习复盘"
+  short_description: "把学习记录整理成结构化复盘"
+  default_prompt: "使用 $daily-learning-review 把我的零散学习记录整理成一份包含收获、问题和下一步行动的复盘。"

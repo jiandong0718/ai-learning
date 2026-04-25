@@ -1,0 +1,7 @@
+interface:
+  display_name: "安全重构"
+  short_description: "在现有代码上做渐进式重构，并说明验证结果与风险"
+  default_prompt: "使用 $refactor-with-safety 在当前代码库中执行受控重构，保持行为边界，控制改动范围，并汇报验证结果和剩余风险。"
+
+policy:
+  allow_implicit_invocation: true

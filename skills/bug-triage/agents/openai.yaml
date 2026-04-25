@@ -1,0 +1,7 @@
+interface:
+  display_name: "Bug 排查与最小修复"
+  short_description: "定位 bug 原因，缩小范围，并在合适时实施最小修复"
+  default_prompt: "使用 $bug-triage 分析当前代码库中的 bug，定位可能原因，缩小范围，在边界清楚时实施最小修复，并汇报验证结果和剩余风险。"
+
+policy:
+  allow_implicit_invocation: true

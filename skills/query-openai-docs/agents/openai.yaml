@@ -1,0 +1,15 @@
+interface:
+  display_name: "查询 OpenAI 文档"
+  short_description: "优先查询 OpenAI 官方文档并提炼结论"
+  default_prompt: "使用 $query-openai-docs 帮我查询 OpenAI 官方文档，并给出简明结论和依据。"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "openaiDeveloperDocs"
+      description: "OpenAI 官方开发文档 MCP 服务"
+      transport: "streamable_http"
+      url: "https://developers.openai.com/mcp"
+
+policy:
+  allow_implicit_invocation: true
